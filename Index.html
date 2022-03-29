@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Combodia-Hotspot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <h1>Cambodia</h1>
+
+<link href="style.css" rel="stylesheet">
+</head>
+<body bgcolor="pink">
+    <div class="container">
+       
+    </div>
+    <hr size="6" color="red">
+    <img  src="cambodiamap.png" usemap="#pagemap">
+    <map name="pagemap">
+    <area shape="circle" coords="636,203,25" alt="StungTreng" href="StungTreng.html"  onmouseover="load_StungTreng()">
+    <area shape="circle" coords="651,370,25" alt="Kratie" href="Kratie.html" onmouseover="load_Kratie()">
+    <area shape="circle" coords="337,92,25" alt="AnlongVeng" href="AnlongVeng.html" onmouseover="load_AnlongVeng()">
+    <area shape="circle" coords="202,279,25" alt="Battambang" href="Battambang.html" onmouseover="load_Battambang()"> 
+    <area shape="circle" coords="299,210,25" alt="Angkor" href="Angkor.html" onmouseover="load_Angkor()">
+    <area shape="circle" coords="105,191,25" alt="Poipet" href="Poipet.html" onmouseover="load_Poipet()">
+    <area shape="circle" coords="470,524,25" alt="PhnomPenh" href="PhnomPenh.html" onmouseover="load_PhnomPenh()">
+    </map>
+
+    <div class="description"></div>
+
+    <script>
+        function load_StungTreng(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="StungTreng.html"></object>';
+        }
+        function load_Kratie(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="Kratie.html"></object>';
+        }
+        function load_AnlongVeng(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="AnlongVeng.html"></object>';
+        }
+        function load_Battambang(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="Battambang.html"></object>';
+        }
+        function load_Angkor(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="Angkor.html"></object>';
+        }
+        function load_Poipet(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="Poipet.html"></object>';
+        }
+        function load_PhnomPenh(){
+            document.getElementById("description").innerHTML = '<object type="text/html" data="PhnomPhenh.html"></object>';
+    </script>
+</body>
+</html>
